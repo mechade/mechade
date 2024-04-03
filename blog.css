@@ -1,0 +1,61 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font family and color */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Container to hold the blog content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Blog post wrapper */
+.blog-post {
+  margin-bottom: 30px;
+}
+
+/* Blog post title */
+.blog-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Blog post meta information */
+.blog-meta {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+/* Blog post content */
+.blog-content {
+  line-height: 1.6;
+}
+
+/* Blog post image */
+.blog-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Blog post read more link */
+.read-more {
+  display: block;
+  text-align: right;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff; /* Blue color for the link */
+}
+
+.read-more:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
